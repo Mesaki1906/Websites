@@ -1,13 +1,33 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
-    <title>A simple calculator</title>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="Calc1.css" />
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
     <div id="container">
         <div id="calculator">
+
             <div id="result">
                 <div id="history">
                     <p id="history-value"></p>
@@ -16,6 +36,7 @@
                     <p id="output-value"></p>
                 </div>
             </div>
+
             <div id="keyboard">
                 <button class="operator" id="clear">C</button>
                 <button class="operator" id="backspace">CE</button>
@@ -38,8 +59,11 @@
                 <button class="empty" id="empty"></button>
                 <button class="operator" id="=">=</button>
             </div>
+
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="Calc1.js"></script>
+
 </body>
+
 </html>
